@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Upload prescription | Medsy</title>
+<link rel="stylesheet" href="style.css">
+<!-- PASTE CLARITY TRACKING CODE HERE -->
+</head><body>
+<aside class="side"><a class="logo" href="index.html">Medsy</a><a class="nav" href="index.html"><span class="ic">🏠</span>Home</a><a class="nav on" href="search.html"><span class="ic">💊</span>Medicines</a><a class="nav" href="labs.html"><span class="ic">🧪</span>Lab Tests</a><a class="nav" href="doctor.html"><span class="ic">🩺</span>Consult Doctor</a><a class="nav" href="ayurvedic.html"><span class="ic">🌿</span>Ayurvedic</a><a class="nav" href="monthly.html"><span class="ic">📋</span>Care Plan</a><a class="nav" href="products.html"><span class="ic">🧰</span>Health Products</a><a class="nav" href="records.html"><span class="ic">🗂️</span>Health Records</a></aside>
+<div class="main">
+<header class="top"><form class="search" action="search.html" method="get"><span>🔍</span><input name="q" value="" placeholder="Search medicines, brands or health products..."></form>
+<nav class="tl"><a href="products.html">🏷️ Offers</a><a href="doctor.html">🎧 Help &amp; Support</a><a href="records.html">👤 Account</a></nav></header>
+<main class="content"><div class="crumb"><a href="index.html">Home</a> &gt; <a href="search.html">Medicines</a> &gt; <span>Prescription Upload</span></div>
+<h1>Upload Prescription</h1><p class="muted">Upload your prescription to verify prescription-required medicines.</p>
+<div class="split2"><div><div class="card drop" id="drop"><div class="ic big2">📄</div><h3>Upload your prescription</h3><p class="muted">Drag and drop your file here, or choose a file</p><p class="muted sm2">JPG, PNG or PDF · Maximum 10 MB</p><input type="file" id="file" accept=".jpg,.jpeg,.png,.pdf" hidden><button class="btn" id="choose">Choose file</button><p id="fname" class="ok"></p></div>
+<a class="btn dis" id="cont" href="#">Continue</a></div>
+<div><div class="card stat"><h3>Prescription Status</h3><ul class="steps"><li class="done" id="s1"><i>✓</i>Uploaded</li><li class="cur" id="s2"><i>•</i><span><b>Under Verification</b><br><small class="muted">Your prescription is being reviewed.</small></span></li><li id="s3"><i></i>Approved</li></ul></div>
+<div class="card info">ℹ️ <span><b>Verification usually takes a few minutes.</b><br><span class="muted">You can place your order once prescription verification is complete.</span></span></div></div></div></main></div>
+<div id="toast" class="toast"></div>
+<script src="app.js"></script>
+</body></html>

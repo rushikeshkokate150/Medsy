@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Checkout | Medsy</title>
+<link rel="stylesheet" href="style.css">
+<!-- PASTE CLARITY TRACKING CODE HERE -->
+</head><body>
+<aside class="side"><a class="logo" href="index.html">Medsy</a><a class="nav on" href="index.html"><span class="ic">🏠</span>Home</a><a class="nav" href="search.html"><span class="ic">💊</span>Medicines</a><a class="nav" href="labs.html"><span class="ic">🧪</span>Lab Tests</a><a class="nav" href="doctor.html"><span class="ic">🩺</span>Consult Doctor</a><a class="nav" href="ayurvedic.html"><span class="ic">🌿</span>Ayurvedic</a><a class="nav" href="monthly.html"><span class="ic">📋</span>Care Plan</a><a class="nav" href="products.html"><span class="ic">🧰</span>Health Products</a><a class="nav" href="records.html"><span class="ic">🗂️</span>Health Records</a></aside>
+<div class="main">
+<header class="top"><form class="search" action="search.html" method="get"><span>🔍</span><input name="q" value="" placeholder="Search medicines, brands or health products..."></form>
+<nav class="tl"><a href="products.html">🏷️ Offers</a><a href="doctor.html">🎧 Help &amp; Support</a><a href="records.html">👤 Account</a></nav></header>
+<main class="content"><div class="crumb"><a href="index.html">Home</a> &gt; <a href="product.html">Cart</a> &gt; <span>Checkout</span></div>
+<div class="split3"><div><h1>Checkout</h1><p class="muted">Review your order and complete your purchase.</p>
+<div class="stepper"><span class="sd">✓ Cart</span><hr><span class="sd">2 Delivery</span><hr><span class="sd">3 Payment</span><hr><span class="sn">4 Done</span></div>
+<div class="card"><div class="row"><h3>📍 Delivery Address</h3><button class="btn ghost sm" data-toast="Address editing not available in prototype">Change</button></div><p><b>Ramesh Verma</b></p><p class="muted">24, MG Road, Pune<br>Maharashtra - 411001</p></div>
+<div class="card"><h3>🧾 Prescription</h3><p class="muted">Prescription uploaded</p><p class="warn"><span class="dot o"></span>Under Verification</p><p class="ok"><span class="dot"></span>Verification in progress</p><p class="muted">Your order can be placed after prescription approval.</p></div>
+<div class="card"><h3>💳 Payment Method</h3><label class="pay on"><input type="radio" name="pm" checked> UPI</label><label class="pay"><input type="radio" name="pm"> Credit / Debit Card</label><label class="pay"><input type="radio" name="pm"> Cash on Delivery</label></div></div>
+<aside class="card sum"><h3>📦 Order Summary</h3><div class="row2"><div class="ic big2">📦</div><div><b>Glycomet GP 1</b><br><span class="muted">15 tablets</span><br><b>₹112.50</b></div></div><hr>
+<div class="row"><span class="muted">Item total</span><b>₹112.50</b></div><div class="row"><span class="muted">Delivery</span><b>₹20</b></div><hr><div class="row"><b>Total</b><b class="big">₹132.50</b></div>
+<div class="remind"><b>🔔 Save on your next refill</b><p class="muted">Set a monthly refill reminder for this medicine.</p><a class="btn ghost sm" href="monthly.html">Set Reminder →</a></div>
+<button class="btn dis wide" id="place">Waiting for Verification</button><p class="muted sm2">Place Order will be enabled after prescription approval.</p></aside></div></main></div>
+<div id="toast" class="toast"></div>
+<script src="app.js"></script>
+</body></html>
